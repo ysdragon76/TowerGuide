@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <name>TowerGuide Drive Data Template</name>
+        <Style id='Style2-point-1'>
+            <IconStyle>
+            <color>ffff0000</color>
+            <scale>1.0</scale>
+            <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+            </IconStyle>
+            <LabelStyle>
+            <scale>0.0</scale>
+            </LabelStyle>
+            <BalloonStyle>
+            <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <Style id='Style2-point-1-hover'>
+            <IconStyle>
+            <color>ffff0000</color>
+            <scale>1.0</scale>
+            <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+            </IconStyle>
+            <BalloonStyle>
+            <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <StyleMap id='Style2-point-1-map'>
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#Style2-point-1</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#Style2-point-1-hover</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id='Style2-point-2'>
+            <IconStyle>
+                <color>ff00ffff</color>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+            <scale>0.0</scale>
+            </LabelStyle>
+            <BalloonStyle>
+                <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <Style id='Style2-point-2-hover'>
+            <IconStyle>
+            <color>ff00ffff</color>
+            <scale>1.0</scale>
+            <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+            </IconStyle>
+            <BalloonStyle>
+            <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <StyleMap id='Style2-point-2-map'>
+            <Pair>
+            <key>normal</key>
+            <styleUrl>#Style2-point-2</styleUrl>
+            </Pair>
+            <Pair>
+            <key>highlight</key>
+            <styleUrl>#Style2-point-2-hover</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id='Style2-point-3'>
+            <IconStyle>
+            <color>ff0000ff</color>
+            <scale>1.0</scale>
+            <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+            </IconStyle>
+            <LabelStyle>
+            <scale>0.0</scale>
+            </LabelStyle>
+            <BalloonStyle>
+            <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <Style id='Style2-point-3-hover'>
+            <IconStyle>
+            <color>ff0000ff</color>
+            <scale>1.0</scale>
+            <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+            </IconStyle>
+            <BalloonStyle>
+            <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <StyleMap id='Style2-point-3-map'>
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#Style2-point-3</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#Style2-point-3-hover</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id='Style2-point-4'>
+            <IconStyle>
+            <color>ffee48e3</color>
+            <scale>1.0</scale>
+            <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+            </IconStyle>
+            <LabelStyle>
+            <scale>0.0</scale>
+            </LabelStyle>
+            <BalloonStyle>
+            <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <Style id='Style2-point-4-hover'>
+            <IconStyle>
+            <color>ffee48e3</color>
+            <scale>1.0</scale>
+            <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+            </IconStyle>
+            <BalloonStyle>
+            <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <StyleMap id='Style2-point-4-map'>
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#Style2-point-4</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#Style2-point-4-hover</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id='Style2-point-5'>
+            <IconStyle>
+            <color>ff00ff00</color>
+            <scale>1.0</scale>
+            <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+            </IconStyle>
+            <LabelStyle>
+            <scale>0.0</scale>
+            </LabelStyle>
+            <BalloonStyle>
+            <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <Style id='Style2-point-5-hover'>
+            <IconStyle>
+            <color>ff00ff00</color>
+            <scale>1.0</scale>
+            <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+            </IconStyle>
+            <BalloonStyle>
+            <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <StyleMap id='Style2-point-5-map'>
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#Style2-point-5</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#Style2-point-5-hover</styleUrl>
+            </Pair>
+        </StyleMap>
+        #foreach($result in $resultList)
+            <Placemark>
+                <name><![CDATA[$result.Operatorname]]></name>
+                <snippet></snippet>
+                <description><![CDATA[<div class="googft-info-window">
+                    <img height="50" width="200" src="https://static1.squarespace.com/static/57fc29bb197aea4a8e83c18b/t/57fc2b09bebafbb2078d2aaa/1524841251323/?format=1500w"/><br>
+                    <b>Timestamp:</b> $result.Timestamp<br>
+                    <b>Longitude:</b> $result.Longitude<br>
+                    <b>Latitude:</b> $result.Latitude<br>
+                    <b>Operatorname:</b> $result.Operatorname<br>
+                    <b>Level:</b> $result.Level
+                </div>]]></description>
+                <styleUrl>
+                    #if($result.Level > -150 and $result.Level < -100)
+                        #Style2-point-3-map
+                    #elseif($result.Level > -100 and $result.Level < -90)
+                        #Style2-point-4-map
+                    #elseif($result.Level > -90 and $result.Level < -80)
+                        #Style2-point-2-map
+                    #elseif($result.Level > -80 and $result.Level < -70)
+                        #Style2-point-1-map
+                    #elseif($result.Level > -70 and $result.Level < 0)
+                        #Style2-point-5-map
+                    #else
+                        #Style2-point-1-map
+                    #end
+                </styleUrl>
+                <Point>
+                    <coordinates>$result.Longitude,$result.Latitude,0</coordinates>
+                </Point>
+            </Placemark>
+        #end
+    </Document>
+</kml>
